@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #F5F7FA;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1A1A1A;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.form-field {
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #1A1A1A;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1A1A1A;
+    background: white;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #40C4AA;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.register-btn {
+    width: 100%;
+    height: 48px;
+    background: #40C4AA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.register-btn:hover {
+    background: #35B39B;
+}
+
+.terms {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.terms a {
+    color: #40C4AA;
+    text-decoration: none;
+}
+
+.mobile-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+.time {
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    background: #1A1A1A;
+    border-radius: 50%;
+}
+
+.date-picker {
+    position: relative;
+}
+
+.calendar-icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
