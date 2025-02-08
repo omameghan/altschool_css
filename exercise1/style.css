@@ -1,0 +1,33 @@
+
+        body {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 16px;
+            width: 400px;
+            padding: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #FF1493;
+            color: black;
+            padding: 12px 20px;
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            padding: 20px;
+            line-height: 1.6;
+        }
